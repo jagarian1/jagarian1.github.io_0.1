@@ -3,4 +3,4 @@ permalink: /about/
 title: "About"
 ---
 
-![1630709610_jj0zrpln16l71 (1)](../images/about/1630709610_jj0zrpln16l71 (1).jpg)
+![배경화면 (351)](../images/about/배경화면 (351).jpg)
