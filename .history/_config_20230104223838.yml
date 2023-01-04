@@ -9,6 +9,7 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Theme Settings
+# Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
@@ -133,12 +134,14 @@ compress_html:
   ignore:
     envs: development
 
-# Analytics
+
+
+  # Analytics
 analytics:
-  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "UA-252976386-1"
-    anonymize_ip         : false  # true, false (default)
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
 
 # Site Author
 author:
@@ -148,7 +151,7 @@ author:
   location         : "Seoul.KR"
   email            : 
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I am Interesting Software."
+  bio    : "My awesome biography. I am interesting software."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
