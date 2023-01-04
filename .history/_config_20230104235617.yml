@@ -10,17 +10,17 @@
 
 # Theme Settings
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-#theme                  : "minimal-mistakes-jekyll"
+# theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" #  "default" ,"air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 #ERROR bad Request-Line sunrise
 # Site settings
 locale                   : "ko_KR"
-title                    : "Jeromemi BLOG"
+title                    : "제로미 BLOG"
 title_separator          : "|"
 subtitle                 : "Jeromemi"
-name                     : "Jeromemi"
-description              : "Jeromemi 블로그 입니다."
+name                     : "BeMyWingMan"
+description              : "BeMyWingMan 블로그 입니다."
 url                      : "https://jagarian1.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" #"/blog"
 repository               : "jagarian1/jagarian1.github.io" #  e.g. "mmistakes/minimal-mistakes"
@@ -195,9 +195,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jeromemi"
+  name             : "BeMyWingMan"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "제로미의 블로그 입니다."
+  bio              : "제로미의 개발 블로그 입니다."
   location         : "Seoul.KR"
   email            : 
   avatar : "/assets/images/bio-photo.jpg"
@@ -241,7 +241,8 @@ defaults:
       share: true
       related: true
       show_date: true
-      date_format: "%Y-%m-%d"
+
+date_format: "%Y-%m-%d"
 
   # _pages
   - scope:
